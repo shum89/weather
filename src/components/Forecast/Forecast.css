@@ -15,7 +15,23 @@
 .forecast__condition {
     max-width: 100px;
     min-height: 36px;
+    margin: 0;
 }
 .forecast__condition:first-letter {
     text-transform: capitalize;
+}
+.forecast__temp-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.forecast__temp {
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .forecast {
+        padding: 5px;
+    }
 }

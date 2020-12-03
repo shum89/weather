@@ -29,9 +29,14 @@ function Card({title, temperature, condition, feelsLike, pressure, humidity, win
                     {`${title}, ${fullDate}`}
                 </h2>
                 <div className='card__temp-wrap'>
+                    <div className='card__temp-container'>
                     <span className='card__temp-value'>{temperature}</span>
-                    <RiCelsiusFill size='20px'/>
+                    <RiCelsiusFill size='30px'/>
+                    </div>
+                    <div className='card__temp-container'>
                     <p className='card__feels-like'>{`Ощущается как ${feelsLike}`}</p>
+                    <RiCelsiusFill/>
+                    </div>
                 </div>
                     <p className='card__condition'>{condition}</p>
                 <div className='card__parameters'>

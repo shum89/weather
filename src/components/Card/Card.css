@@ -20,6 +20,8 @@
 .card__temp-wrap {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .card__temp-value {
@@ -49,7 +51,7 @@
     grid-gap: 10px;
 }
 .card__feels-like {
-    margin: 0;
+    margin: 0 5px 0 0;
 }
 
 .card__parameters {
@@ -61,5 +63,23 @@
 }
 
 .card__humidity {
+
+}
+
+.card__temp-container {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 534px) {
+    .card__temp-wrap {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .card__temp-wrap {
+        width: 100%;
+    }
 
 }
