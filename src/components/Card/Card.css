@@ -1,0 +1,65 @@
+.card {
+   min-height: 300px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 608px;
+    color: black;
+    padding: 20px 24px;
+    border-radius: 10px;
+}
+
+.card__title {
+}
+
+.card__subtitle {
+
+}
+
+.card__temp-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.card__temp-value {
+    font-size: 48px;
+    margin-right: 10px;
+}
+
+.card__temp-unit {
+
+}
+
+.card__feelings {
+
+}
+
+.card__condition {
+
+}
+
+.card__condition::first-letter {
+    text-transform: capitalize;
+}
+.card__parameters-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,fit-content(100%));
+    grid-gap: 10px;
+}
+.card__feels-like {
+    margin: 0;
+}
+
+.card__parameters {
+
+}
+
+.card__pressure {
+
+}
+
+.card__humidity {
+
+}

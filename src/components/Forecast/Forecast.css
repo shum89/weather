@@ -1,0 +1,21 @@
+.forecast {
+    color: black;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.forecast__date {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+.forecast__condition {
+    max-width: 100px;
+    min-height: 36px;
+}
+.forecast__condition:first-letter {
+    text-transform: capitalize;
+}

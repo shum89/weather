@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./components/App/App.css);
+@import url(./components/Main/Main.css);
+@import url(./components/Search/Search.css);
+@import url(./components/Preloader/Preloader.css);
+@import url(./components/Card/Card.css);
+@import url(./components/Forecast/Forecast.css);
+:root {
+  --font-title: "Roboto Slab";
+  --font-text:"Roboto";
+  --font-date: "Source Sans Pro";
+  --font-input: "Inter";
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
 }
